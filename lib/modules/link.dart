@@ -27,7 +27,7 @@ class _LinkEditorImageState extends State<LinkEditorImage> {
         appBar: AppBar(
           actions: <Widget>[
             IconButton(
-              icon: Icon(FontAwesomeIcons.alignLeft,
+              icon: FaIcon(FontAwesomeIcons.alignLeft,
                   color: align == TextAlign.left
                       ? Colors.white
                       : Colors.white.withAlpha(80)),
@@ -38,7 +38,7 @@ class _LinkEditorImageState extends State<LinkEditorImage> {
               },
             ),
             IconButton(
-              icon: Icon(FontAwesomeIcons.alignCenter,
+              icon: FaIcon(FontAwesomeIcons.alignCenter,
                   color: align == TextAlign.center
                       ? Colors.white
                       : Colors.white.withAlpha(80)),
@@ -49,7 +49,7 @@ class _LinkEditorImageState extends State<LinkEditorImage> {
               },
             ),
             IconButton(
-              icon: Icon(FontAwesomeIcons.alignRight,
+              icon: FaIcon(FontAwesomeIcons.alignRight,
                   color: align == TextAlign.right
                       ? Colors.white
                       : Colors.white.withAlpha(80)),

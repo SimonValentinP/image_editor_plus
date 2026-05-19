@@ -6,7 +6,6 @@ import 'package:extended_image/extended_image.dart';
 import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hand_signature/signature.dart';
 import 'package:image/image.dart' as img;
 import 'package:image_editor_plus/data/image_item.dart';
@@ -1238,7 +1237,7 @@ class _SingleImageEditorState extends State<SingleImageEditor> {
                     ),
                   if (widget.emojiOption != null)
                     BottomButton(
-                      icon: FontAwesomeIcons.faceSmile,
+                      icon: Icons.sentiment_satisfied,
                       text: i18n('Emoji'),
                       onTap: () async {
                         EmojiLayerData? layer = await showModalBottomSheet(
